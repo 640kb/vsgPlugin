@@ -1,0 +1,9 @@
+@PACKAGE_INIT@
+
+include(CMakeFindDependencyMacro)
+
+# vsgPlugin depends on vsg
+find_dependency(vsg)
+
+include("${CMAKE_CURRENT_LIST_DIR}/vsgPluginTargets.cmake")
+include("${CMAKE_CURRENT_LIST_DIR}/vsgPluginMacros.cmake")
