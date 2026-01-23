@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Ralf Habacker
+#
+# SPDX-License-Identifier: MIT
+
 cmake_minimum_required(VERSION 3.16)
 project(vsgPluginPackageTest LANGUAGES CXX)
 

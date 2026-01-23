@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Ralf Habacker
+//
+// SPDX-License-Identifier: MIT
 
 #include "MyReaderWriter.h"
 #include <vsg/io/Options.h>

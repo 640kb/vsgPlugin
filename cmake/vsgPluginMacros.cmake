@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Ralf Habacker
+#
+# SPDX-License-Identifier: MIT
+
 function(vsgplugin_setup_plugin)
     set(options)
     set(oneValueArgs TARGET PLUGIN_NAME)

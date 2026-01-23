@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Ralf Habacker
+#
+# SPDX-License-Identifier: MIT
+
 option(VSGPLUGIN_BUILD_EXAMPLES "Build example plugins" ON)
 
 if(VSGPLUGIN_BUILD_EXAMPLES)

@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 Ralf Habacker
+//
+// SPDX-License-Identifier: MIT
+
 #pragma once
 
 //#include "myformat_export.h"

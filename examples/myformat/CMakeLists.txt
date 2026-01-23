@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Ralf Habacker
+#
+# SPDX-License-Identifier: MIT
+
 include(vsgPluginMacros)
 
 add_library(vsg_myformat SHARED

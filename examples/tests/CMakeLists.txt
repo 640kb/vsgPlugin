@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Ralf Habacker
+#
+# SPDX-License-Identifier: MIT
+
 add_executable(vsgplugin_load_test
     load_plugin.cpp
 )

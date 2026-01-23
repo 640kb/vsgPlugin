@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 Ralf Habacker
+//
+// SPDX-License-Identifier: MIT
+
 #include <vsg/plugin/PluginLoader.h>
 #include <vsg/plugin/PluginPaths.h>
 
