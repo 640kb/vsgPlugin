@@ -7,6 +7,7 @@
 #include <vsg/plugin/PluginPaths.h>
 #include <vsg/core/Version.h>
 #include <cstdlib>
+#include <string>
 
 namespace fs = std::filesystem;
 
