@@ -26,6 +26,10 @@ add_library(vsgPlugin SHARED
     src/PluginPaths.cpp
 )
 
+if(BUILD_SHARED_LIBS)
+    target_compile_definitions(vsgPlugin INTERFACE VSGPLUGIN_SHARED_LIBRARY)
+endif()
+
 target_link_libraries(vsgPlugin
     PUBLIC vsg::vsg
 )

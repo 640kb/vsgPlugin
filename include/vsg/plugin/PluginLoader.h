@@ -5,6 +5,7 @@
 #pragma once
 
 #include <vsg/io/Options.h>
+#include "Export.h"
 
 namespace vsg::plugin
 {
@@ -12,5 +13,5 @@ namespace vsg::plugin
      * Load all plugins found in the plugin search paths and register
      * their ReaderWriters into the provided Options object.
      */
-    void loadPlugins(vsg::Options& options);
+    VSGPLUGIN_DECLSPEC void loadPlugins(vsg::Options& options);
 }
